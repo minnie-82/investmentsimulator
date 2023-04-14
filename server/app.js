@@ -5,17 +5,9 @@ const app = express();
 
 dotenv.config({ path: "./config.env" });
 
-const db = process.env.DATABASE;
-const port = process.env.PORT;
+require("./database/connection");
 
-mongoose
-  .connect(db)
-  .then(() => {
-    console.log("Connection successfull");
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+const port = process.env.PORT;
 
 app.get("/", (req, res) => {
   res.send("Hello World");
