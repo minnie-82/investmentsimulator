@@ -1,3 +1,4 @@
+const jwt = require("jsonwebtoken");
 const express = require("express");
 const router = express.Router();
 
@@ -45,6 +46,9 @@ router.post("/login", async (req, res) => {
     }
 
     const userLogin = await User.findOne({ email: email });
+
+    const token = await userLogin.generateAuthToken();
+    console.log(token);
 
     if (userLogin) {
       const isMatch = await bcrypt.compare(password, userLogin.password);
