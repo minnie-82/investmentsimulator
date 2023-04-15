@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../App.css";
-import Logo from "../images/logo-no-bg.png";
+import Logo from "../images/SimStocks.png";
 const Navbar = () => {
   return (
     <>
@@ -31,27 +31,27 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/portfolio">
                   Portfolio
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/transaction">
                   Transaction
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/learn">
                   Learn
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/register">
                   Register
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/login">
                   Login
                 </a>
               </li>
