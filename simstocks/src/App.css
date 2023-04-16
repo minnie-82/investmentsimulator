@@ -19,3 +19,61 @@
   color: rgb(10, 154, 170);
   font-weight: 600;
 }
+
+.registration-form {
+  margin: 20px auto;
+  width: 40%;
+  padding: 25px;
+  /* background-color: #ebeaea; */
+  border-radius: 5px;
+}
+
+.registration-form label,
+.registration-form input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.registration-form input {
+  width: 70%;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  border-radius: 3px;
+}
+
+.registration-form button[type="submit"] {
+  width: 30%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.registration-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Add custom styles for error messages or other form feedback */
+.registration-form .error-message {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(234, 234, 234); */
+  width: 80%;
+  border-radius: 20px;
+}
+
+.register-img {
+  margin-right: 70px;
+  margin-left: 0;
+  padding-left: 0;
+}
