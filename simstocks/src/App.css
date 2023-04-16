@@ -20,60 +20,30 @@
   font-weight: 600;
 }
 
-.registration-form {
-  margin: 20px auto;
-  width: 40%;
-  padding: 25px;
-  /* background-color: #ebeaea; */
-  border-radius: 5px;
-}
-
-.registration-form label,
-.registration-form input {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.registration-form input {
-  width: 70%;
-  padding: 10px;
-  border-bottom: 1px solid black;
-  border-radius: 3px;
-}
-
-.registration-form button[type="submit"] {
-  width: 30%;
-  padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  outline: none;
-}
-
-.registration-form button[type="submit"]:hover {
-  background-color: #0056b3;
-}
-
-/* Optional: Add custom styles for error messages or other form feedback */
-.registration-form .error-message {
-  color: red;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-
-.form-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: rgb(234, 234, 234); */
+.signup-content {
   width: 80%;
-  border-radius: 20px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  box-shadow: 2px 3px 10px grey;
 }
 
-.register-img {
-  margin-right: 70px;
-  margin-left: 0;
-  padding-left: 0;
+.form-title {
+  padding: 20px 0;
+}
+
+.signup-form {
+  padding: 30px;
+}
+
+.form-group {
+  margin: 20px 0;
+  padding: 5px 0;
+}
+
+.form-group input {
+  border: none;
+  background-color: #f5f5f5;
+  margin-left: 15px;
+  border-bottom: 1px solid black;
 }
