@@ -7,9 +7,9 @@ const bcrypt = require("bcryptjs");
 require("../database/connection");
 const User = require("../model/userSchema");
 
-router.get("/", (req, res) => {
-  res.send("Hello World router js");
-});
+// router.get("/", (req, res) => {
+//   res.send("Hello World router js");
+// });
 
 router.post("/register", async (req, res) => {
   const { name, email, phone, password, cpassword } = req.body;
